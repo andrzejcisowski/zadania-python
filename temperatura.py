@@ -10,7 +10,7 @@ if j == 'f' or j == 'c':
     t = input()
     if j == 'c' and t.isdigit():
         print(int(t) * 1.8 + 32,  'F')
-    elif j == 'f' and t.isdigit():
+    if j == 'f' and t.isdigit():
         print((int(t) - 32) / 1.8, 'C')
-else:
-    print('Błędne dane')
+    else:
+        print('Błędne dane')
