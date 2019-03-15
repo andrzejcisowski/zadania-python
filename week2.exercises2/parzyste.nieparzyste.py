@@ -4,7 +4,7 @@
 
 a = 0
 b = 0
-for liczba in range(0, 100):
+for liczba in range(100):
     if liczba % 2 != 0:
         a = a+1
     else:
