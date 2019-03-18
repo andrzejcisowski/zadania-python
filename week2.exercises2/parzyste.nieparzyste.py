@@ -15,8 +15,7 @@ print("parzyste: {}), nieparzyste :{}".format(a, b))
 # wersja 2
 a = 0
 b = 0
-print('podaj zakres')
-podaj_zakres = int(input())
+podaj_zakres = int(input('Podaj zakres :'))
 for liczba in range(int(podaj_zakres)):
     if liczba % 2 != 0:
         a = a+1
