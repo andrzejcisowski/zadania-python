@@ -4,7 +4,7 @@
 
 samogloski = 0
 spolgloski = 0
-print('wpisz słowo')
+print('wpisz słowo i naciśnij enter:')
 
 for litera in input():
     if litera.lower() in ('aeioyu'):
