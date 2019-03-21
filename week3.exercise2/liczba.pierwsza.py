@@ -24,4 +24,4 @@ if nr >= 1:
     else:
         print(pierw, 'jest liczbą pierwszą')
         #return libp(int(input('podaj liczbe: ')))
-libp(9)"""
+libp(wpisz liczbę,aby sprawdzić, czy jest liczbą pierwszą)"""
