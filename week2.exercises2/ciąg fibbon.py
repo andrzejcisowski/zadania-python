@@ -2,7 +2,7 @@
 # -UTF - 8 \\
 
 a, b = (0, 1)    #start - cyfry pierwsze w ciągu\\
-n = int(input("Podaj zakres, do jakiego obliczymy ciąg  : "))
+n = int(input("Podaj zakres, do jakiego obliczymy ciąg(max 10000) : "))
 while b < n:
     if n > 10000:                              # ograniczenie przed zapętleniem - wykonanie do 10000\\
         print('przekroczyłeś zakres')
