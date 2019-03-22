@@ -24,4 +24,4 @@ def libp(pierw):
     else:
         print(pierw, 'jest liczbą pierwszą')
     return libp(int(input('podaj liczbe: ')))
-libp(9)
+libp(pierw = int(input()))
